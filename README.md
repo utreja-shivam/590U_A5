@@ -32,7 +32,7 @@ I used the starter code and made the changes I felt were necessary to realize my
 - Automating Bluetooth Scanning, at a constant time interval to get a count of new smartphones in the vicinity.
 - Filtering bluetooth devices, so that only smartphones are counted as proxy for people nearby.
 - Interactive map markers for crowded regions, which show both the time of day when the user visited that particular location, along with the number of people around at that location. The user can see this data visually on the map, relative to his/her home marker which is shown in green.
-- Devising a scoring metric and computing it in near-realtime to give as feedback to the user.
+- Devising a Social-distancing scoring metric and computing it in near-realtime to give as feedback to the user.
 
 
 ### Video and Github Links
