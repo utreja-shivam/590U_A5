@@ -12,7 +12,8 @@ The user interface has been explored in detail in the video. I'll just give a sh
 - There is just one activity/screen in this app for ease of usability. All important details such as "Nearby People", "Tracking Status" and the current distancing score estimate (*which updates on pressing the "My Score" button*); is displayed on the same screen.
 - The majority of the screen is covered with the Google Maps, which is something most smartphone users now-a-days are comforatble working with. The app has access to the Places API, which allows the users to interact freely with the UI.
 - The button on the top right of the screen called "Set Home", lets the user set their home coordinates on the map with a green marker.
-- The "Track" button on the  bottom left initiates the constant time duty cycle for  
+- The "Track" button on the  bottom left initiates the constant time duty cycle for  bluetooth device scanning. It starts sensing for nearby bluetooth devices every 20 seconds (this duration will be kept around 10 or 15mins in a practical scenario). For the purposes of the demo we are scanning for all devices, but in a real world scenario, we would only scan for smartphones. **The code has commented lines of code that just sense for other bluetooth smartphones.**
+- The "Stop" button in the middle 
 
 ### Scoring Metric Engineering
 ### Evaluation
