@@ -28,3 +28,5 @@ The scoring metric used is pretty intuitive and straightforward. The metric and 
 
 ### Highlighting Contribution
 ### Video and Github Links
+[Github Link](https://github.com/utreja-shivam/590U_A5.git)
+[Video Link](https://drive.google.com/file/d/1HJwab6mBSG171L6l8UbThQ9gEHgP9FT9/view?usp=sharing)
