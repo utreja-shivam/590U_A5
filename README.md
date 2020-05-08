@@ -20,6 +20,11 @@ The user interface has been explored in detail in the video. I'll just give a sh
 ### Scoring Metric Engineering
 The scoring metric used is pretty intuitive and straightforward. The metric and its intuition is described below;
  - The score of a user is nothing but the sum of bluetooth devices detected, divided by the number of duty/scanning cycles. Therefore in this case, a lower score is desireable, because the user wants to be in less crowded places in as many of the duty cycles (i.e. as long a duration) as possible.
+ - A score from 0 to 3 is considered green/safe. Score from 3 to 5 is considered moderate, and finally a score greater than 5 is red/risky. The user can look at the score anytime when outside(and using the tracking) and guage how likely he/she may have been exposed to the virus, and take corrective measures.
+
 ### Evaluation
+- Given the current circumstances, I was only able to go down for a walk to test the app. The walk is recorded in the video.
+- All features of the app discussed above worked fine.
+
 ### Highlighting Contribution
 ### Video and Github Links
